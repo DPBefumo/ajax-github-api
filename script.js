@@ -7,7 +7,7 @@
   })
   .then(function (data){
     const h1El = document.createElement('h1')
-    h1El.innerText = data.name
+    h1El.innerText = `${data.name}`
     nameHeader.appendChild(h1El)
     const basic = document.createElement('h2')
     basic.innerText = `The Basics`
